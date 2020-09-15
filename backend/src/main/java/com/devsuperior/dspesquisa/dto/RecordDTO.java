@@ -1,0 +1,98 @@
+package com.devsuperior.dspesquisa.dto;
+
+import java.io.Serializable;
+import java.time.Instant;
+
+import com.devsuperior.dspesquisa.entities.Record;
+import com.devsuperior.dspesquisa.entities.enums.Platform;
+
+//Retorna os dados para conferincia da inserção na API
+//classe responsável por trafegar os objetos entre os CONTROLLER(Resources) e as Entidades
+//Serializable padrão do JAVA para converter um obejto em bytes. Para se poder gravar em arquivo e trafegar na rede
+public class RecordDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	//objetos que precisam ser trafegados
+	private Long id;
+	private Instant moment;
+	private String name;
+	private Integer age;
+	private String gameTitle;
+	private Platform gamePlatform;
+	private String genreName;
+	
+	/*construtor genérico e recebendo uma identidade para se ter uma forma prática para
+	  instânciar o GameDTO apartir de uma Game */
+	public RecordDTO() {
+	}
+	
+	public RecordDTO(Record entity) {
+		this.id = entity.getId();
+		this.moment = entity.getMoment();
+		this.name = entity.getName();
+		this.age = entity.getAge();
+		this.gameTitle = entity.getGame().getTitle();
+		this.gamePlatform = entity.getGame().getPlatform();
+		this.genreName = entity.getGame().getGenre().getName();
+	}
+	
+	//getters e setters
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Instant getMoment() {
+		return moment;
+	}
+
+	public void setMoment(Instant moment) {
+		this.moment = moment;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+
+	public String getGameTitle() {
+		return gameTitle;
+	}
+
+	public void setGameTitle(String gameTitle) {
+		this.gameTitle = gameTitle;
+	}
+
+	public Platform getGamePlatform() {
+		return gamePlatform;
+	}
+
+	public void setGamePlatform(Platform gamePlatform) {
+		this.gamePlatform = gamePlatform;
+	}
+
+	public String getGenreName() {
+		return genreName;
+	}
+
+	public void setGenreName(String genreName) {
+		this.genreName = genreName;
+	}
+	
+	
+	
+}
