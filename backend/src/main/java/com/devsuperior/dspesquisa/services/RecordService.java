@@ -28,7 +28,7 @@ public class RecordService {
 	private GameRepository gameRepository;
 	
 	//método que insere o um RecordInsertDTO e retorna um RecordDTO completo
-	@Transactional(readOnly = true)
+	@Transactional(readOnly = false)
 	public RecordDTO insert(RecordInsertDTO dto) {
 		
 		Record entity = new Record();
