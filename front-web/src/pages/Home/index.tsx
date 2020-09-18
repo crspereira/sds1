@@ -13,7 +13,7 @@ const Home = () => (
 			<h3 className="home-text-subtitle">
 				Clique no botão abaixo e saiba quais são os jogos que os gamers estão escolhendo!
 			</h3>
-			<Link to="/record">
+			<Link to="/records">
 				<div className="home-actions">
 					<button className="home-btn">
 						QUERO SABER QUAIS SÃO
