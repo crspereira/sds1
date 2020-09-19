@@ -5,5 +5,5 @@ export type Game = {
     title: string;
     platform: GamePlatform;
     label: string;
-    values: number;
+    value: number;
 }

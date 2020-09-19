@@ -5,7 +5,7 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Play_400Regular,
-  Play_700Bold,
+  Play_700Bold
 } from '@expo-google-fonts/play';
 import Routes from './src/routes';
 
@@ -13,7 +13,7 @@ import Routes from './src/routes';
 export default function App() {
   const [fontsLoaded] = useFonts({
     Play_400Regular,
-    Play_700Bold,
+    Play_700Bold
   });
 
   if (!fontsLoaded) {
