@@ -7,7 +7,7 @@ import Pagination from './Pagination';
 import Filters from '../../components/Filters';
 
 
-const BASE_URL = 'http://localhost:8080'
+const BASE_URL = 'https://sds1-claytonpereira.herokuapp.com';
 
 const Records = () => {
   //criando um stado interno para o componente que viabiliza o a listagem dados
