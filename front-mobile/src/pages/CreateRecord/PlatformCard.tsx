@@ -39,13 +39,16 @@ const styles = StyleSheet.create({
       backgroundColor: '#FFF',
       borderRadius: 10,
       justifyContent: 'center',
+      fontWeight: 'normal',
       alignItems: 'center'
+      
     },
     platformCardText: {
       marginTop: 40,
       color: '#9E9E9E',
       fontSize: 24,
       fontFamily: "Play_700Bold",
+      fontWeight: 'normal',
       textAlign: 'center'
     },
   });

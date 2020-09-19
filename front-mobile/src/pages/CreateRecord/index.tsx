@@ -74,9 +74,9 @@ const CreateRecord = () => {
             onChangeText={text => setName(text)}
             value={name}
           />
-          <TextInput
-            keyboardType='numeric'
+          <TextInput 
             style={styles.inputText}
+            keyboardType='numeric'
             placeholder="Idade"
             placeholderTextColor="#9E9E9E"
             maxLength={2}
@@ -101,16 +101,18 @@ const CreateRecord = () => {
                 icon="playstation"
                 onChange={handleChangePlatform}
                 activePlatform={platform}
+
               />
         </View>
           <RNPickerSelect
             onValueChange={value => {
-              setSelectedGame(value)
+              setSelectedGame(value);
             }}
             placeholder={placeholder}
             value={selectedGame}
             items={filteredGames}
             style={pickerSelectStyles}
+            useNativeAndroidPickerStyle={false}
             Icon={() => {
               return <Icon name="chevron-down" color="#9E9E9E" size={25}/>
             }}
@@ -129,7 +131,7 @@ const CreateRecord = () => {
 }
 
 const pickerSelectStyles = StyleSheet.create(
- {
+  {
     inputIOS: {
       fontSize: 16,
       paddingVertical: 12,
@@ -143,18 +145,20 @@ const pickerSelectStyles = StyleSheet.create(
     },
     inputAndroid: {
       fontSize: 16,
-      fontFamily: "Play_700Bold",
       paddingVertical: 12,
       paddingHorizontal: 20,
       backgroundColor: '#FFF',
       borderRadius: 10,
       color: '#ED7947',
       paddingRight: 30,
+      fontWeight: 'normal',
+      fontFamily: "Play_700Bold",
       height: 50
     },
     placeholder: {
       color: '#9E9E9E',
       fontSize: 16,
+      fontWeight: 'normal',
       fontFamily: "Play_700Bold",
     },
     iconContainer: {
@@ -179,6 +183,7 @@ const styles = StyleSheet.create(
       color: '#ED7947',
       fontFamily: "Play_700Bold",
       fontSize: 16,
+      fontWeight: 'normal',
       paddingLeft: 20,
       marginBottom: 21
     },
@@ -202,10 +207,12 @@ const styles = StyleSheet.create(
     },
     buttonText: {
       fontFamily: "Play_700Bold",
+      fontWeight: 'bold',
       fontSize: 18,
       color: '#0B1F34',
     }
   }
+  
 );
   
 
