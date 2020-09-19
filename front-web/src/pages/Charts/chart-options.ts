@@ -16,17 +16,17 @@ export const pieOptions = {
       offsetY: "100px",
       style: {
         colors: ["#a8dadc", "#ed7947", "#00D4FF", "#ffd6a5"],
-        fontSize: "20px",
+        fontSize: "25px",
         fontFamily: "Play, sans-serif",
         fontWeight: 700,
       },
     },
     plotOptions: {
       pie: {
-        customScale: 0.7,
+        customScale: 0.75,
         expandOnClick: false,
         dataLabels: {
-          offset: 60,
+          offset: 65,
         },
       },
     },
@@ -47,7 +47,7 @@ export const pieOptions = {
         horizontal: true,
         endingShape: "rounded",
         startingShape: "rounded",
-        barHeight: "60px",
+        barHeight: "55px",
       },
     },
     dataLabels: {

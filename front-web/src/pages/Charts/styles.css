@@ -46,12 +46,13 @@
   
   .charts {
     color: #FFF;
-    width: 400px;
+    width: 410px;
     margin-left: 30px;
   }
   
   .chart-title {
-    font-size: 28px;
+    font-size: 30px;
+    padding-bottom: 0;
   }
   
   .platform-chart {
@@ -66,7 +67,7 @@
   .gender-chart {
     padding-top: 15px;
     padding-left: 25px;
-    height: 373px;
+    height: 400px;
     background-color: var(--color-dimgray);
     border-radius: 10px;
   }
