@@ -9,6 +9,8 @@ Big Game Survey é uma aplicação full stack web e mobile construída durante a
 
 A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
+BackEnd hospedado no Heroku e FrontEnd no NetliFly
+
 ## Layout mobile
 ![Mobile 1](https://github.com/crspereira/sds1/blob/master/assets/mobile1.png) ![Mobile 2](https://github.com/crspereira/sds1/blob/master/assets/mobile2.png)
 
