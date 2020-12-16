@@ -10,15 +10,15 @@ Big Game Survey é uma aplicação full stack web e mobile construída durante a
 A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
 ## Layout mobile
-![Mobile 1](https://github.com/crspereira/sds1/upload/master/assets/mobile1.png) ![Mobile 2](https://github.com/crspereira/sds1/upload/master/assets/mobile2.png)
+![Mobile 1](https://github.com/crspereira/sds1/blob/master/assets/mobile1.png) ![Mobile 2](https://github.com/crspereira/sds1/blob/master/assets/mobile2.png)
 
 ## Layout web
-![Web 1](https://github.com/crspereira/sds1/upload/master/assets/web1.png)
+![Web 1](https://github.com/crspereira/sds1/blob/master/assets/web1.png)
 
-![Web 2](https://github.com/crspereira/sds1/upload/master/assets/web2.png)
+![Web 2](https://github.com/crspereira/sds1/blob/master/assets/web2.png)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/crspereira/sds1/upload/master/assets/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/crspereira/sds1/blob/master/assets/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 ## Back end
@@ -44,7 +44,7 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/crspereira/sds1
 
 # entrar na pasta do projeto back end
 cd backend
@@ -58,7 +58,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/crspereira/sds1
 
 # entrar na pasta do projeto front end web
 cd front-web
@@ -72,7 +72,7 @@ yarn start
 
 # Autor
 
-Wellington Mazoni de Andrade
+Clayton Pereira
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/claytonpereira
 
